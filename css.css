@@ -1,0 +1,61 @@
+body{
+   font-size:  15px;
+}
+header{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#slider {
+    text-align: center;
+    background-color: teal;
+    color: white;
+    padding: 5px;
+    font-family: arial;
+    margin: 10px;
+}
+hr {
+    width:40%;
+    border: 8px dotted teal;
+    border-bottom: none;
+}
+fieldset {
+    border-color: teal;
+    margin: 0% 15%;
+    justify-content: center;
+    text-align: center;
+}
+legend {
+        font-weight: bold;
+        font-size: 18px;
+        text-align:left;
+        color:darkblue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-transform: uppercase;
+}
+p{
+    
+    font-size: 20px;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+input {
+ padding: 5px;
+    border-radius: 0.2em;
+    border: 0.5px solid dimgrey;
+}
+button {
+    margin: 5px;
+    text-align: center;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+#div {
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 20%;
+    border-radius: 0.6em;
+    text-transform: capitalize;
+    padding: 10px;
+}

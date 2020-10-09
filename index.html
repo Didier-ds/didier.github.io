@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Score</title>
+        <link rel="stylesheet" href="css.css">
+<script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h2>Javascript Programs</h2><hr />
+
+        </header>
+        <div id="slider">
+        <h2>This page is for testing my javascript abilities on what i have learnt so far</h2>
+</div>
+        <fieldset>
+            <legend>string swapper</legend>
+            <p>1. this fieldset is where you can swap the text in the first input to the second input and the second input to the first</p>
+            <input type="text" id="first_txt" placeholder="1st text"/>
+            <input type="text" id="second_txt" placeholder="2nd text" />
+            <br /><button onclick="swap()">Swap</button>
+        </fieldset>
+        <fieldset>
+            <legend>Display Input</legend>
+            <p>2. this fieldset is where your input can display while you type</p>
+            <div id="div"></div>
+            <input type="text" id="inp_ut" oninput="see()" placeholder="enter text"/>
+           
+         </fieldset>
+         <fieldset id="$bg">
+             <legend>Edit this fieldset color</legend>
+             <p>3. in this fieldset you can change the background color of this section</p>
+             <input type="text" id="bg_color" placeholder="Enter Background color"/>
+             <input type="text" id = "txt_color" placeholder="Enter Text color" />
+             <button onclick="$change()">CHECK</button>
+         </fieldset>
+
+    </body>
+</html>
